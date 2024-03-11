@@ -13,7 +13,7 @@ export class UserService {
     try {
       console.log('--createUserDto--', createUserDto);
 
-      await this.rabbitmqService.pushToEmailQueue(createUserDto.email);
+      this.rabbitmqService.pushToEmailQueue(createUserDto.email);
       return { success: true };
     } catch (e) {
       return { success: false };
