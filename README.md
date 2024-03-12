@@ -2,11 +2,11 @@
 
 An implementation of RabbitMQ publisher in NestJS application.
 
-### Pre-requisites to run this project
+## Pre-requisites to run this project
 
 1. NodeJS
 
-### Steps to run this project
+## Steps to run this project
 
 1. Setup the RabbitMQ server by running this command:
 
@@ -19,13 +19,13 @@ An implementation of RabbitMQ publisher in NestJS application.
 4. Create a `.env` from `env-example` file: `cp env-example .env.local` and update the values
 5. Run `npm run start:dev` to start the project
 
-### Tech Stack
+## Tech Stack
 
-1. NestJS
-2. RabbitMQ
-3. TypeScript
-4. Docker
+- NestJS 
+- RabbitMQ 
+- TypeScript 
+- Docker
 
-### Contact
+## Contact
 
 mohdejazsiddiqui@gmail.com
